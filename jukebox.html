@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="jukebox.css">
+</head>
+<body>
+	<form>
+		<input type="button" value="play" id="playBtn" />
+		<input type="button" value="pause" id="pauseBtn" />
+		<input type="button" value="stop" id="stopBtn" />
+	</form>
+
+	<audio id="player">
+		<source id="mp3source" src="04-MyLastBreath.mp3" type="audio/mp3"></source>
+	</audio>
+	
+	<h3>Copy the next line into the box below it</h3>
+	<h4>03-EverybodysFool.mp3</h4>
+	<form>
+		<input type="text" name="newSong" id="newSongs">
+		<input type="button" value="submit" id="submit">
+	</form>
+<script src="jukebox.js"></script>
+</body>
+</html>
